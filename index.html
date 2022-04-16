@@ -7,19 +7,125 @@
     <!--Link arquivo CSS-->
     <link rel="stylesheet" href="css/main.css">
 
-    <title>PET Estratégiass</title>
+    <!--Link arquivo bootstrap-->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+
+    <title>PET Estratégias</title>
 </head>
 
 <body>
     <header>
-        <!--CABEÇALHO DA PAGINA-->
-        <img src="img/logo-PET.jpg" alt="Logo do PET-Estratégias">
-        <h1>Programa de Educação Tutorial</h1>
-        <div class="menu-principal">
-            <nav>
-                <a href="" </nav>
-        </div>
+        <!--Cabeçalho-->
+        <nav class="logo">
+            <!--Logo-->
+            <a href="#">
+                <img src="img/logo-PET.png" class="rounded mx-auto d-block" width="350px" height="130px" alt="Logo do PET Estratégias">
+            </a>
+            <div class="text-center icons">
+                <a href="https://www.facebook.com/petestrategias/" target="blank">
+                    <img class="rounded redes-sociais" src="img/icons/facebook.png" width="40px" height="25px" alt="Icone Facebook">
+                </a>
+                <a href="https://www.instagram.com/petestrategias.ufvjm/" target="blank">
+                    <img class="rounded redes-sociais" src="img/icons/instagram.png" width="40px" height="25px" alt="Icone Instagram">
+                </a>
+                <a href="https://www.youtube.com/channel/UC-jEvLUGw5sw4FxvRXWDIsA" target="blank">
+                    <img class="rounded redes-sociais" src="img/icons/youtube.png" width="40px" height="32px" alt="Icone Youtube">
+                </a>
+
+                <a href="mailton:petestrategias@ufvjm.edu.br" target="blank">
+                    <img class="rounded redes-sociais" src="img/icons/email.png" width="37px" height="30px" alt="Logo do PET Estratégias">
+                </a>
+            </div>
+        </nav>
+
+        <!--MENU-->
+        <nav class="menu-principal">
+            <!--Itens Menu-->
+            <div class="text-center">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#sobre">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#">ENSINO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#pesquisa">PESQUISA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#extensao">EXTENSÃO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#">PUBLICAÇÕES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#">PRODUÇÕES AUDIOVISUAIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link item-menu" href="#">SOBRE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="rounded nav-link " href="#">EQUIPE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PROCESSO SELETIVO</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
     </header>
+
+    <section id="sobre">
+        <div class="container-fluid sobre text-center margin">
+            <h3>Sobre</h3>
+            <img src="img/equipe.png" class="rounded-circle" width="400px" height="400px">
+            <h3>Somo uma equipe multidisciplinar</h3>
+        </div>
+
+    </section>
+
+    <section id="pesquisa">
+        <div class="container-fluid text-center margin pesquisa">
+            <h3>Pesquisa</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="img/logo-PET.png" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/logo-PET.png" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/logo-PET.png" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="extensão">
+        <div class="container-fluid text-center margin extensao">
+            <h3 class="margin">Extensão</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a
+                            para fazer um</p>
+                        <img src="img/equipe.png" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum tem sido o texto fictício padrão da indústria desde os anos 1500, quando um impressor desconhecido pegou uma cozinha de tipos e embaralhou-a
+                            para fazer um</p>
+                        <img src="img/equipe.png" width="100%">
+                    </div>
+                </div>
+
+    </section>
+
+
+
 
     <section>
         <!--SESSÃO DE CONTEÚDO-->
@@ -35,16 +141,11 @@
             <a href="http://site.ufvjm.edu.br/petestrategias/" target="_blank">Site PET Estratégias</a>
         </article>
     </section>
-    <footer>
+
+    <footer class="container-fluid text-center bg-footer margin">
         <!--RODAPÉ-->
-        <ul>
-            <li> Email
-                <a>Email </a>
-            </li>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Youtube</li>
-        </ul>
+        <p>Desenvolvido por Helen Cristina Araujo</p>
+
     </footer>
 </body>
 
